@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Nunito');
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+h2 {
+    font-family: 'Roboto' Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: blue;
+    }
+
+ul {
+    list-style-type: none;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("images/panofeb23-header.jpg") no-repeat center center;
+  }
