@@ -19,3 +19,6 @@ One page gives basic information on the club including sponsors.
 The Events page is organised to allow people to find suitable activities. Text appears in expandable sections with meaningful headings. 
 
 The Sign Up page invites comments and allows users to sign up to the club. This directly meets the last two aims of the site. 
+
+
+Horizontal navigation bar code: https://www.w3schools.com/css/css_navbar_horizontal.asp
