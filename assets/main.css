@@ -1,22 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Nunito');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Nunito:300');
 
-body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
+p {
+    margin: 0;
+    padding: 0;
+    font-family:'Nunito', Arial, sans-serif;
+    color: grey;
 }
 h2 {
-    font-family: 'Roboto' Arial, sans-serif;
+    font-family: 'Roboto', Courier, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     color: blue;
     }
+h3 {
+    font-family: 'Roboto', Arial, sans-serif;
+    height: 70%;
+    letter-spacing: 3px;
+    color: #423b3bfd;
+    }
 
 ul {
     list-style-type: none;
+    font-family:'Nunito', Arial, sans-serif;
+    color: cornflowerblue;
 }
-
-#hero-image {
-    height: 600px;
+#hero-outer {
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    position: relative;
+  } 
+  #hero-image {
+    height: 400px;
     width: 100%;
-    background: url("images/panofeb23-header.jpg") no-repeat center center;
+    background: url("images/panofeb23-header-s.jpeg") no-repeat center center;
+}
+  #logo {
+    padding-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
   }
