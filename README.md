@@ -21,4 +21,13 @@ The Events page is organised to allow people to find suitable activities. Text a
 The Sign Up page invites comments and allows users to sign up to the club. This directly meets the last two aims of the site. 
 
 
-Horizontal navigation bar code: https://www.w3schools.com/css/css_navbar_horizontal.asp
+
+Horizontal navigation bar code via this tutorial: https://www.w3schools.com/css/css_navbar_horizontal.asp 
+
+Hero image: Visit Wales assets https://www.assets.wales.com/assets Crown Copyright 
+
+Photo by <a href="https://unsplash.com/es/@p_kuzovkova?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Polina Kuzovkova</a> on <a href="https://unsplash.com/photos/0-FBo3a8ytU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Acknowledgement must go to Flexbox cheatsheet https://flexbox.malven.co/ and Flexbox Froggy for teaching me flex display. 
+
+
