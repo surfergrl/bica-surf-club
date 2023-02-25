@@ -16,6 +16,7 @@ h3 {
     font-family: 'Roboto', Arial, sans-serif;
     letter-spacing: 1px;
     color: cornflowerblue;
+    font-size:medium;
     }
 
 #navbar {
@@ -108,16 +109,25 @@ ul {
   padding: 20px;
 }
 /* Responsive design */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 750px) {
   #welcome {
-    width: 375px;
+    width: 300px;
     margin: 0 auto; 
     display: block;
+    height: 750px;
   }
-  #sponsors {
-    width: 375px;
+  .left-welcome {
     margin: 0 auto;
-    display: block; 
-    position: absolute;
+    padding: 0px;
+    width: 100%
+  }
+  .right-welcome {
+    margin: 0 auto;
+    padding: 0px;
+    width: 100%
+  }
+  .middle-img {
+    margin: 0 auto;
+    padding: 10px;
   }
 }
