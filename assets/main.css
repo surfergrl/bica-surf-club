@@ -79,7 +79,7 @@ ul {
 }
 .middle-img {
   margin: 0 auto;
-  padding: 30px;
+  padding: 40px;
 }
 #link a {
   text-decoration: none;
@@ -106,4 +106,18 @@ ul {
 }
 .sponsors a {
   padding: 20px;
+}
+/* Responsive design */
+@media screen and (max-width: 375px) {
+  #welcome {
+    width: 375px;
+    margin: 0 auto; 
+    display: block;
+  }
+  #sponsors {
+    width: 375px;
+    margin: 0 auto;
+    display: block; 
+    position: absolute;
+  }
 }
