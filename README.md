@@ -23,6 +23,13 @@ The Sign Up page allows users to sign up to the club and ask for more informatio
 The website is in Welsh and English, to be welcoming to all surfers, and to meet the criteria for community sport funding. 
 
 Validation
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
 
 
 Horizontal navigation bar code via this tutorial: https://www.w3schools.com/css/css_navbar_horizontal.asp 
@@ -33,4 +40,7 @@ Photo by <a href="https://unsplash.com/es/@p_kuzovkova?utm_source=unsplash&utm_m
 
 Acknowledgement must go to Flexbox cheatsheet https://flexbox.malven.co/ and Flexbox Froggy for teaching me flex display. 
 
-
+Bug - Sign Up page
+Required: two columns butted up against each other. 
+Could not get the form-main class to take any styles. See screenshots of the CSS and the result. 
+Decided to remove flexbox positioning and try relative positioning instead. 

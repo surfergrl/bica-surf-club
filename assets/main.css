@@ -91,21 +91,36 @@ ul {
 }
 /*contact us page css*/
 #form {
-  font-family:'Nunito', Arial, sans-serif;
   display: flex;
   flex-direction:row;
   align-content:center;
 }
 .form-intro {
-
   width: 45%;
   margin: 0 auto;
   padding: 20px;
+  text-align: center;
+}
+.rock {
+  border: 1px dotted #423b3bfd;
+  border-radius: 50%;
+  padding: 10px;
 }
 .form-main {
+  font-family:'Nunito', Arial, sans-serif;
   width: 45%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0px;
+}
+fieldset {
+  margin-top: 30px;
+}
+legend {
+  font-size: 2rem;
+  float:right;
+  }
+input {
+  margin: 10px;
 }
 /*footer and sponsors*/
 #footer {
@@ -129,18 +144,18 @@ ul {
 }
 /* Responsive design */
 @media screen and (max-width: 750px) {
-  #welcome {
+  #welcome, #form {
     width: 300px;
     margin: 0 auto; 
     display: block;
     height: 750px;
   }
-  .left-welcome {
+  .left-welcome, .form-intro {
     margin: 0 auto;
     padding: 0px;
     width: 100%
   }
-  .right-welcome {
+  .right-welcome, .form-main {
     margin: 0 auto;
     padding: 0px;
     width: 100%
@@ -148,5 +163,13 @@ ul {
   .middle-img {
     margin: 0 auto;
     padding: 10px;
+  }
+  /* how do i get this to stick to the top of the footer
+  and the footer to the bottom of the page*/
+  .sponsors {
+
+  }
+  .footer {
+
   }
 }
