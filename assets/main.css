@@ -165,8 +165,8 @@ input {
     padding: 10px;
   }
   /* how do i get this to stick to the top of the footer
-  and the footer to the bottom of the page*/
-  .sponsors {
+  and the footer to the bottom of the page so no overlap*/
+  .sponsors { 
 
   }
   .footer {
