@@ -89,16 +89,27 @@ ul {
 #link a:hover {
   font-weight: bold;
 }
-#footer {
-  background-color: #423b3bfd;
+/*contact us page css*/
+#form {
+  font-family:'Nunito', Arial, sans-serif;
+  display: flex;
+  flex-direction:row;
+  align-content:center;
 }
-.social {
+.form-intro {
+
+  width: 45%;
   margin: 0 auto;
   padding: 20px;
-  text-align: center;
 }
-.social a {
+.form-main {
+  width: 45%;
+  margin: 0 auto;
   padding: 20px;
+}
+/*footer and sponsors*/
+#footer {
+  background-color: #423b3bfd;
 }
 .sponsors {
   margin: 0 auto;
@@ -106,6 +117,14 @@ ul {
   text-align: center;
 }
 .sponsors a {
+  padding: 20px;
+}
+.social {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.social a {
   padding: 20px;
 }
 /* Responsive design */

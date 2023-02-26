@@ -18,8 +18,11 @@ One page gives basic information on the club including sponsors.
 
 The Events page is organised to allow people to find suitable activities. Text appears in expandable sections with meaningful headings. 
 
-The Sign Up page invites comments and allows users to sign up to the club. This directly meets the last two aims of the site. 
+The Sign Up page allows users to sign up to the club and ask for more information. This directly meets the last two aims of the site. 
 
+The website is in Welsh and English, to be welcoming to all surfers, and to meet the criteria for community sport funding. 
+
+Validation
 
 
 Horizontal navigation bar code via this tutorial: https://www.w3schools.com/css/css_navbar_horizontal.asp 
