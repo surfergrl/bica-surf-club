@@ -150,7 +150,6 @@ input {
 .social a {
   padding: 20px;
 }
-
 /* Responsive design - cols for contact page on larger screens*/
 @media (min-width: 800px) {
   #form {
@@ -159,5 +158,8 @@ input {
   }
   .form-intro {
     text-align: left;
+  }
+  .container {
+    min-width: 800px;
   }
 }
