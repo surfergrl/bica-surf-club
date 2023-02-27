@@ -89,39 +89,38 @@ ul {
 #link a:hover {
   font-weight: bold;
 }
-/*contact us page css*/
-#form {
-  display: flex;
-  flex-direction:row;
-  align-content:center;
+#link a:active {
+  color: blueviolet;
 }
-.form-intro {
-  width: 45%;
+
+/*contact page css set for mobile up to 800px */
+#welcome {
+  height: 1200px;
+  margin: 0 auto; 
+  display: block;
+}
+.left-welcome, .form-intro {
   margin: 0 auto;
-  padding: 20px;
-  text-align: center;
+  padding: 0px;
+  width: 100%
 }
-.rock {
-  border: 1px dotted #423b3bfd;
-  border-radius: 50%;
-  padding: 10px;
-}
-.form-main {
-  font-family:'Nunito', Arial, sans-serif;
-  width: 45%;
+.right-welcome {
   margin: 0 auto;
   padding: 0px;
 }
-fieldset {
-  margin-top: 30px;
+.middle-img {
+  padding: 10px;
 }
-legend {
-  font-size: 2rem;
-  float:right;
-  }
-input {
-  margin: 10px;
+#form {
+  display: flex;
+  flex-direction: column;
 }
+.form-main {
+flex-direction: column;
+align-content: left;
+} 
+
+
 /*footer and sponsors*/
 #footer {
   background-color: #423b3bfd;
@@ -142,34 +141,42 @@ input {
 .social a {
   padding: 20px;
 }
-/* Responsive design */
-@media screen and (max-width: 750px) {
-  #welcome, #form {
-    width: 300px;
-    margin: 0 auto; 
-    display: block;
-    height: 750px;
+
+/* Responsive design - for contact page on larger screens, shuffle into columns */
+@media (min-width: 800px) {
+  #form {
+    flex-direction: row;
   }
-  .left-welcome, .form-intro {
+
+  .form-intro {
+    width: 45%;
     margin: 0 auto;
-    padding: 0px;
-    width: 100%
+    padding: 20px;
+    text-align: center;
   }
-  .right-welcome, .form-main {
-    margin: 0 auto;
-    padding: 0px;
-    width: 100%
-  }
-  .middle-img {
-    margin: 0 auto;
+
+  .rock {
+    border: 1px dotted #423b3bfd;
+    border-radius: 50%;
     padding: 10px;
   }
-  /* how do i get this to stick to the top of the footer
-  and the footer to the bottom of the page so no overlap*/
-  .sponsors { 
 
+  .form-main {
+    font-family: 'Nunito', Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0px;
   }
-  .footer {
 
+  fieldset {
+    margin-top: 30px;
+  }
+
+  legend {
+    font-size: 2rem;
+    float: right;
+  }
+
+  input {
+    margin: 10px;
   }
 }
