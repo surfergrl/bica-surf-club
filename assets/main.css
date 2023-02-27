@@ -43,8 +43,16 @@ ul {
       text-decoration: none;
     }
     li a:hover {
-      background-color: grey;
+      color:#423b3bfd;
+      background-color: #fdd55b;
     }
+    li a:active {
+      font-weight: bold;
+    }
+  #navbar li a.current{
+      color: #423b3bfd;
+      background:#fdd55b;
+   }
 
 #hero-image {
   height:263px;
@@ -52,7 +60,6 @@ ul {
   background-size: cover;
   background-color: cadetblue;
   background: url("images/wave-polina-kuzovkova.jpg") no-repeat center center;
-  /*background-position-y: top 0px;*/
 } 
   #logo {
     height: 50px;
@@ -82,22 +89,11 @@ ul {
   margin: 0 auto;
   padding: 40px;
 }
-#link a {
-  text-decoration: none;
-  color:grey;
-}
-#link a:hover {
-  font-weight: bold;
-}
-#link a:active {
-  color: blueviolet;
-}
 
 /*contact page css set for mobile up to 800px */
 #welcome {
   height: 1200px;
   margin: 0 auto; 
-  display: block;
 }
 .left-welcome, .form-intro {
   margin: 0 auto;
@@ -111,16 +107,29 @@ ul {
 .middle-img {
   padding: 10px;
 }
+/*display in 1 column until media query called */
 #form {
+  font-family: 'Nunito', Arial, sans-serif;
   display: flex;
   flex-direction: column;
 }
-.form-main {
-flex-direction: column;
-align-content: left;
-} 
-
-
+.rock {
+  border: 1px dotted #423b3bfd;
+  border-radius: 50%;
+  padding: 10px;
+}
+fieldset {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+legend {
+  font-size: 2rem;
+  float: right;
+  color: #fdd55b;
+}
+input {
+  margin: 10px;
+}
 /*footer and sponsors*/
 #footer {
   background-color: #423b3bfd;
@@ -142,41 +151,13 @@ align-content: left;
   padding: 20px;
 }
 
-/* Responsive design - for contact page on larger screens, shuffle into columns */
+/* Responsive design - cols for contact page on larger screens*/
 @media (min-width: 800px) {
   #form {
     flex-direction: row;
+    justify-content: space-evenly;
   }
-
   .form-intro {
-    width: 45%;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .rock {
-    border: 1px dotted #423b3bfd;
-    border-radius: 50%;
-    padding: 10px;
-  }
-
-  .form-main {
-    font-family: 'Nunito', Arial, sans-serif;
-    margin: 0 auto;
-    padding: 0px;
-  }
-
-  fieldset {
-    margin-top: 30px;
-  }
-
-  legend {
-    font-size: 2rem;
-    float: right;
-  }
-
-  input {
-    margin: 10px;
+    text-align: left;
   }
 }
