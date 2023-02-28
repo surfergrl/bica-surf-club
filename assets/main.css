@@ -108,6 +108,11 @@ input {
   display: flex;
   flex-direction: column;
 }
+#events h3 {
+  padding-left: 8px;
+}
+
+/* Trying to display bullet points didn't work. Tutor support could not find the problem. Left as a bug - does not break functionality.*/ 
 .event-list {
   list-style-image: url('images/water.svg');
   background-color: white;
@@ -115,9 +120,18 @@ input {
   font-size: smaller;
   padding: 0 8px 8px 8px;
 }
+#events ul {
+  /*list-style-image: url('images/water.svg');*/
+  font-family:'Nunito', Arial, sans-serif;
+  list-style-type: disc;
+  background-color: white;
+  color: black;
+  font-size: smaller;
+  padding: 0 8px 8px 8px;
+}
 #events img {
-  width: 50%;
   padding: 8px;
+  max-width: 267px;
 }
 
 /*footer and sponsors*/
@@ -153,5 +167,9 @@ input {
   }
   .form-intro {
     text-align: left;
+  }
+  #events {
+    display:flex;
+    flex-direction: row;
   }
 }
