@@ -102,6 +102,23 @@ legend {
 input {
   margin: 10px;
 }
+/* styling events for mob*/
+#events {
+  display: flex;
+  flex-direction: column;
+}
+#events ul {
+  /*list-style-image: URL(/assets/images/water.svg);*/
+  list-style-type: circle;
+  background-color: white;
+  color: black;
+}
+
+#events img {
+  width: 50%;
+  padding: 8px;
+}
+
 /*footer and sponsors*/
 #footer {
   background-color: #423b3bfd;
