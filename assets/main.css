@@ -18,6 +18,7 @@ h3 {
     color: cornflowerblue;
     font-size:medium;
     }
+
 /*Navigation*/
 #navbar {
   text-align: center;
@@ -107,13 +108,13 @@ input {
   display: flex;
   flex-direction: column;
 }
-#events ul {
-  /*list-style-image: URL(/assets/images/water.svg);*/
-  list-style-type: circle;
+.event-list {
+  list-style-image: url('images/water.svg');
   background-color: white;
   color: black;
+  font-size: smaller;
+  padding: 0 8px 8px 8px;
 }
-
 #events img {
   width: 50%;
   padding: 8px;
