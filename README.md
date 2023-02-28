@@ -6,7 +6,7 @@ The club was set up in 2007, but the website is now badly out of date and the re
 
 Users of the site (and members of the club) are age 8+ and have differing levels of technological know-how. Users wil include the surf club members themselves, prospective members, volunteers, sponsors, local residents and visitors. 
 
-The website is in Welsh and English, to be welcoming to all, and to meet the criteria for community sport funding. 
+The website's Home page and Contact page are in Welsh and English, to be welcoming to all, and to meet the criteria for community sport funding (i.e. the main portal should be bilingual). 
 
 **Aims of this website:**
 
@@ -44,20 +44,20 @@ CSS run through W3C CSS validator
 Also run through Jigsaw: 
 
 **Acknowledgements**
-Horizontal navigation bar code via this tutorial: https://www.w3schools.com/css/css_navbar_horizontal.asp 
+Horizontal navigation bar help via this tutorial: https://www.w3schools.com/css/css_navbar_horizontal.asp 
 
 Acknowledgement must go to Flexbox Froggy [http://flexboxfroggy.com/] from Codepip for teaching me flex display and the Flexbox cheatsheet [https://flexbox.malven.co/] used for creating column displays. 
 
 **Credits**
+
 Contact Us page image of Carreg Bica rock: Visit Wales assets https://www.assets.wales.com/assets Crown Copyright 
+
 
 Hero image by <a href="https://unsplash.com/es/@p_kuzovkova?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Polina Kuzovkova</a> on <a href="https://unsplash.com/photos/0-FBo3a8ytU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+Surfer images by Hedz Llewelyn, Carol Vincent and Emily J with permission.
+
 **Bugs**
-
-Footer and Sponnos 
-
-Positioning the footer and sponsors sections at the bottom of the screen and having the design respond without main content overlapping them has been solved by extending the height of the main content containers. I think this could be done in a more elegant/true CSS way but have not worked out how. The design works so this has been accepted for now. 
 
 Hero image
 
@@ -66,6 +66,10 @@ I initially chose the image panofeb23-header-s.jpeg (still available in /assets/
 Logo
 
 I initially wanted the logo to sit neatly on the bottom left of the hero image and move along with it. In the end I am happy with it floating a little more freely - this works well with different viewport sizes. In the end I prefer the logo floating off the header image, as it has a different look in what is otherwise a standard aesthetic. 
+
+Lists on Events page 
+
+I wanted to style the events page lists differently from the list elements making up the navbar but there must be some clash as I cannot get the bullet points to show and the list does not behave as expected (wraps lines). Tutor support could not solve or suggest. Have used hyphens. The code has been left in for future correction. 
 
 **Deployment**
 
