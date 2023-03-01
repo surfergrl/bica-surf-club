@@ -4,6 +4,8 @@
 
 ## The BICA Surf Club website hosts three pages of information about the surf club based in Llangrannog, West Wales.
 
+The website can be found here: https://surfergrl.github.io/bica-surf-club/index.html 
+
 The club was set up in 2007, but the website is now badly out of date and the relaunch requires a new site. The club wants to attract new members, volunteers, sponsors and funding. 
 
 Users of the site (and members of the club) are age 8+ and have differing levels of technological know-how. Users wil include the surf club members themselves, prospective members, volunteers, sponsors, local residents and visitors. 
