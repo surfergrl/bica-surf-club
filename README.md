@@ -24,6 +24,8 @@ The website's Home page and Contact page are in Welsh and English, to be welcomi
 
 I have chosen to use three different pages rather than sections on one page. This has allowed me to split the information up and organise it into more manageable sections.  
 
+The [wireframes](/assets/wireframes/) are available in the assets folder.
+
 One page gives basic information on the club including sponsors. 
 
 The Events page is organised to allow people to find suitable activities. Text appears in sections with meaningful headings and includes some images of local surfing. 
