@@ -1,6 +1,8 @@
 ![alt text](/assets/images/bica-logo.png "BICA surf club Logo")
 
-The **BICA Surf Club** website hosts three pages of information about the surf club based in Llangrannog, West Wales. 
+# BICA Surf Club
+
+## The BICA Surf Club website hosts three pages of information about the surf club based in Llangrannog, West Wales.
 
 The club was set up in 2007, but the website is now badly out of date and the relaunch requires a new site. The club wants to attract new members, volunteers, sponsors and funding. 
 
@@ -18,22 +20,21 @@ The website's Home page and Contact page are in Welsh and English, to be welcomi
 - To allow people to ask for more information
 - To showcase the talent of surfers locally   
 
--- insert screenshots for each aim 
-
 I have chosen to use three different pages rather than sections on one page. This has allowed me to split the information up and organise it into more manageable sections.  
 
 One page gives basic information on the club including sponsors. 
 
-The Events page is organised to allow people to find suitable activities. Text appears in expandable sections with meaningful headings. It will also include some images of local surfing. 
+The Events page is organised to allow people to find suitable activities. Text appears in sections with meaningful headings and includes some images of local surfing. 
 
 The Sign Up page allows users to sign up to the club and ask for more information. This directly meets the last two aims of the site. 
 
-**Validation**
+**Validation and Testing**
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/surfergrl/bica-surf-club)
 
 HTML run through W3C validator 
 
-
-CSS run through W3C CSS validator
+CSS run through Jigsaw
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -41,12 +42,18 @@ CSS run through W3C CSS validator
             alt="Valid CSS!" />
     </a>
 </p>
-Also run through Jigsaw: 
+
+Tested on 
+- Chrome Version 110.0.5481.177 renders as expected 
+- Firefox 110.0 renders as expected 
+- Safari 16.2 renders as expected 
+- Microsoft Edge renders as expected  
+- Internet Explorer via Edge IE mode poor (as expected)
 
 **Acknowledgements**
 Horizontal navigation bar help via this tutorial: https://www.w3schools.com/css/css_navbar_horizontal.asp 
 
-Acknowledgement must go to Flexbox Froggy [http://flexboxfroggy.com/] from Codepip for teaching me flex display and the Flexbox cheatsheet [https://flexbox.malven.co/] used for creating column displays. 
+Acknowledgement must go to Flexbox Froggy [http://flexboxfroggy.com/] from Codepip for teaching me flex display and the Flexbox cheatsheet [https://flexbox.malven.co/] used for creating column displays. ![alt text](/assets/images/readme/froggy.png)
 
 **Credits**
 
@@ -55,7 +62,9 @@ Contact Us page image of Carreg Bica rock: Visit Wales assets https://www.assets
 
 Hero image by <a href="https://unsplash.com/es/@p_kuzovkova?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Polina Kuzovkova</a> on <a href="https://unsplash.com/photos/0-FBo3a8ytU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-Surfer images by Hedz Llewelyn, Carol Vincent and Emily J with permission.
+Local surfer images by Hedz Llewelyn, Carol Vincent and Emily J with permission.
+
+<a href="https://www.flaticon.com/free-icons/wave" title="wave icons">Wave icons created by Ayub Irawan - Flaticon</a>
 
 **Bugs**
 
@@ -70,7 +79,12 @@ I initially wanted the logo to sit neatly on the bottom left of the hero image a
 Lists on Events page 
 
 I wanted to style the events page lists differently from the list elements making up the navbar but there must be some clash as I cannot get the bullet points to show and the list does not behave as expected (wraps lines). Tutor support could not solve or suggest. Have used hyphens. The code has been left in for future correction. 
+![alt text](/assets/images/readme/events-css.png)
 
 **Deployment**
 
 The site has been developed in GitPod using GitHub version control, and deployed on GitHub Pages. 
+
+![alt text](/assets/images/readme/bsc-screenshot-top.png)
+
+![alt text](/assets/images/readme/bsc-screenshot-bottom.png)
