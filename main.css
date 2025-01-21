@@ -61,7 +61,7 @@ ul {
   width: 100%;
   background-size: cover;
   background-color: cadetblue;
-  background: url("images/wave-polina-kuzovkova.jpg") no-repeat center center;
+  background: url("assets/images/wave-polina-kuzovkova.jpg") no-repeat center center;
 } 
   #logo {
     height: 50px;
@@ -89,7 +89,7 @@ ul {
 } 
 .middle-img {
   margin: 0 auto;
-  padding: 8px;
+  padding: 16px;
 }
 .rock {
   border: 1px dotted #423b3bfd;
@@ -124,7 +124,7 @@ input {
   display: list-item;
 }
 #events ul {
-  list-style-image: url('images/waves.png');
+  list-style-image: url('/assets/images/waves.png');
   font-family:'Nunito', Arial, sans-serif;
   align-content: center;
   background-color: white;
@@ -164,7 +164,8 @@ input {
   #welcome {
     display: flex;
     flex-direction: row;
-    align-content: center;
+    justify-content: space-evenly;
+    max-width: 1000px;
   }
   #form {
     display: flex;
