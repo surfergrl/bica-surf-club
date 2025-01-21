@@ -117,7 +117,6 @@ input {
   padding-left: 8px;
 }
 
-/* Trying to display bullet point images didn't work. Tutor support could not find the problem. Left as a bug - does not break functionality.*/ 
 .event-list {
   background-color: white;
   color: black;
@@ -127,7 +126,7 @@ input {
   display: list-item;
 }
 #events ul {
-  /* list-style-image: url('images/water.svg'); */
+  list-style-image: url('images/waves.png');
   font-family:'Nunito', Arial, sans-serif;
   align-content: center;
   background-color: white;
