@@ -108,16 +108,13 @@ legend {
 input {
   margin: 10px;
 }
-
 #events {
   width: 80%;
   margin: 0 auto; */
 }
-
 #events h3 {
   padding-left: 8px;
 }
-
 .event-list {
   background-color: white;
   color: black;
