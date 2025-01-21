@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Nunito:300');
 
-body {
-  min-height: 100vh;
-}
-
 p {
     margin: 0;
     padding: 0;
@@ -107,44 +103,40 @@ legend {
 input {
   margin: 10px;
 }
-
+/* styling events for mob*/
 #events {
-  width: 80%;
-  margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
 }
-
 #events h3 {
   padding-left: 8px;
 }
 
-/* Trying to display bullet point images didn't work. Tutor support could not find the problem. Left as a bug - does not break functionality.*/ 
+/* Trying to display bullet points didn't work. Tutor support could not find the problem. Left as a bug - does not break functionality.*/ 
 .event-list {
+  list-style-image: url('images/water.svg');
   background-color: white;
   color: black;
+  font-size: smaller;
   padding: 0 8px 8px 8px;
 }
-.event-list li {
-  display: list-item;
-}
 #events ul {
-  /* list-style-image: url('images/water.svg'); */
+  /*list-style-image: url('images/water.svg');*/
   font-family:'Nunito', Arial, sans-serif;
-  align-content: center;
+  list-style-type: disc;
   background-color: white;
   color: black;
-  font-size:small;
-  padding: 0px 8px 8px 8px;
+  font-size: smaller;
+  padding: 0 8px 8px 8px;
 }
 #events img {
   padding: 8px;
   max-width: 267px;
-  align-items: center;
 }
 
 /*footer and sponsors*/
 #footer {
   background-color: #423b3bfd;
-  text-align: center;
 }
 .sponsors {
   margin: 0 auto;
@@ -157,11 +149,11 @@ input {
 .social {
   margin: 0 auto;
   padding: 20px;
+  text-align: center;
 }
 .social a {
   padding: 20px;
 }
-
 /* Responsive design - cols for larger screens*/
 @media (min-width: 800px) {
   #welcome {
