@@ -71,6 +71,7 @@ ul {
     background-position: center;
     position: absolute;
   }
+
 /*1 column for mobile up to 800px*/
 #welcome, #form {
   font-family: 'Nunito', Arial, sans-serif;
@@ -169,11 +170,17 @@ input {
     align-content: center;
   }
   #form {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    max-width: fit-content;
   }
   .form-intro {
     text-align: left;
+    padding-right: 10px;
+  }
+  .form-main {
+    padding-left: 10px;
   }
   #events {
     display:flex;
