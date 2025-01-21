@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Nunito:300');
-
 body {
   min-height: 100vh;
 }
-
 p {
     margin: 0;
     padding: 0;
@@ -22,7 +20,6 @@ h3 {
     color: cornflowerblue;
     font-size:medium;
     }
-
 /*Navigation*/
 #navbar {
   text-align: center;
@@ -61,7 +58,7 @@ ul {
   width: 100%;
   background-size: cover;
   background-color: cadetblue;
-  background: url("assets/images/wave-polina-kuzovkova.jpg") no-repeat center center;
+  background: url("/assets/images/wave-polina-kuzovkova.jpg") no-repeat center center;
 } 
   #logo {
     height: 50px;
@@ -71,7 +68,6 @@ ul {
     background-position: center;
     position: absolute;
   }
-
 /*1 column for mobile up to 800px*/
 #welcome, #form {
   font-family: 'Nunito', Arial, sans-serif;
@@ -124,7 +120,7 @@ input {
   display: list-item;
 }
 #events ul {
-  list-style-image: url('/assets/images/waves.png');
+  list-style-image: url('images/waves.png');
   font-family:'Nunito', Arial, sans-serif;
   align-content: center;
   background-color: white;
@@ -137,7 +133,6 @@ input {
   max-width: 267px;
   align-items: center;
 }
-
 /*footer and sponsors*/
 #footer {
   background-color: #423b3bfd;
@@ -158,7 +153,6 @@ input {
 .social a {
   padding: 20px;
 }
-
 /* Responsive design - cols for larger screens*/
 @media (min-width: 800px) {
   #welcome {
