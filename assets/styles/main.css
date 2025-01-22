@@ -71,12 +71,19 @@ ul {
     background-position: center;
     position: absolute;
   }
-/* Mobile-first design: 1 column for mobile up to 800px */
+/* Mobile-first design: 1 column for mobile up to 800px wide 
+Tests against horizontal scroll for minimum screen width 320px  */
 #welcome, #form {
   font-family: 'Nunito', Arial, sans-serif;
   margin: 0 auto; 
   display: flex; 
   flex-direction: column;
+}
+.form-main {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 100%; /* Allow it to shrink within 320px */
+  box-sizing: border-box; /* Ensures padding and borders are included in width */
 }
 .left-welcome, .form-intro{
   margin: 0 auto;
@@ -88,12 +95,12 @@ ul {
 } 
 .middle-img {
   margin: 0 auto;
-  padding: 16px;
+  padding: 6px;
 }
 .rock {
   border: 1px dotted #423b3bfd;
   border-radius: 50%;
-  padding: 8px;
+  padding: 12px;
 }
 fieldset {
   margin-top: 20px;
