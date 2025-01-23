@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <!--Header and nav consistent with main page-->
-<body>
+<body style="
+    display: flex;
+    flex-direction: column;
+    ">
     <section id="hero-outer">
     <div id="logo">
         <img src="assets/images/bica-logo.png" height=100px alt="Clwb Syrffio Bica Surf Club">
@@ -55,7 +58,8 @@ Leave your message here" name="message-box" rows="20" cols="30"></textarea>
     </div>
 </section>
 <!--Sponsor images and links; footer consistent with home page-->
-<section>
+<!--Both styled inline to push sponsors down and footer to the bottom-->
+<section style="margin-top: auto;">
     <div class="sponsors">
         <h3>Sponsors:</h3>
         <a href="https://www.pentrearms.co.uk" target="_blank"><img src="assets/images/pentre-logo.jpg" alt="Pentre Arms Hotel"></a>
@@ -63,7 +67,7 @@ Leave your message here" name="message-box" rows="20" cols="30"></textarea>
         <a href="https://www.tonnausurf.com/" target="_blank"><img src="assets/images/tonnau.jpg" alt="Tonnau Surf Shop"></a>
     </div>
 </section>
-<footer id="footer">
+<footer id="footer" style="margin-top: auto;">
     <div class="social">
             <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook" style="font-size: 2rem; color: cornflowerblue;"></i>
             <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram" style="font-size: 2rem; color: cornflowerblue;"></i>
