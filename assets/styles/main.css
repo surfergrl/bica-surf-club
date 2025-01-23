@@ -72,7 +72,8 @@ ul {
     position: absolute;
   }
 /* Mobile-first design: 1 column for mobile up to 800px wide 
-Avoid horizontal scroll for minimum screen width 320px  */
+Avoid horizontal scroll for minimum screen width 320px  
+Keep the message box a minimum size for reasonable text entry */
 #welcome, #form {
   font-family: 'Nunito', Arial, sans-serif;
   margin: 0 auto; 
@@ -82,8 +83,6 @@ Avoid horizontal scroll for minimum screen width 320px  */
 .form-main {
   margin: 0 auto;
   padding: 0 10px;
-  max-width: 100%; /* Allow it to shrink within 320px */
-  box-sizing: border-box; /* Ensures padding and borders are included in width */
 }
 .left-welcome, .form-intro{
   margin: 0 auto;
@@ -111,14 +110,18 @@ legend {
   color: #fdd55b;
 }
 input {
+  width: 80%;
   margin: 10px;
-  box-sizing: border-box;
+}
+textarea {
+  width: 80%;
+  height: 250px;
+  margin: 10px;
 }
 /* Keep everything in Events section centred in relation to header 
    Avoid horizontal scroll on screens minimum 320px */
 #events {
   width: 80%;
-
   margin: 0 8px 8px 8px; /* Reduces margin for smallest screen */
 }
 #events h3 {
