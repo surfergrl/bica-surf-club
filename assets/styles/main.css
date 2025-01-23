@@ -82,7 +82,7 @@ Avoid horizontal scroll for minimum screen width 320px  */
 .form-main {
   margin: 0 auto;
   padding: 0 10px;
-  max-width: 100%; /* Allow it to shrink within 320px - but it doesn't... */
+  max-width: 100%; /* Allow it to shrink within 320px */
   box-sizing: border-box; /* Ensures padding and borders are included in width */
 }
 .left-welcome, .form-intro{
@@ -95,7 +95,7 @@ Avoid horizontal scroll for minimum screen width 320px  */
 } 
 .middle-img {
   margin: 0 auto;
-  padding: 6px;
+  padding: 30px;
 }
 .rock {
   border: 1px dotted #423b3bfd;
@@ -112,13 +112,13 @@ legend {
 }
 input {
   margin: 10px;
-  /* width: calc(100% - 10px); Adjust width to account for margins */
   box-sizing: border-box;
 }
 /* Keep everything in Events section centred in relation to header 
    Avoid horizontal scroll on screens minimum 320px */
 #events {
   width: 80%;
+
   margin: 0 8px 8px 8px; /* Reduces margin for smallest screen */
 }
 #events h3 {

@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="/assets/styles/main.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
-<body>
+<!--Body styled to allow for pushing footer to the bottom-->
+<body style="
+    display: flex;
+    flex-direction: column;
+    ">
     <section id="hero-outer">
     <div id="logo">
         <img src="assets/images/bica-logo.png" height=100px alt="Clwb Syrffio Bica Surf Club">
@@ -24,7 +28,7 @@
         <li><a href="contact.html">Contact Us</a></li>
     </ul>
 </nav>
-<!--Main content - 2 divs of text to allow for bilingual content with one central image -->
+<!--Main content - 2 divs of text to allow for bilingual content with one central image-->
 <section id="welcome">
     <div class="left-welcome">
     <h2>Croeso!</h2>
@@ -53,8 +57,9 @@
         <a href="https://www.tonnausurf.com" target="_blank"><img src="assets/images/tonnau.jpg" alt="Tonnau Surf Shop"></a>
     </div>
 </section>
-<!--Simple footer with social media links and validation information -->
-<footer id="footer">
+<!--Simple footer with social media links and validation information-->
+<!--Footer styled inline to push to the bottom on all screens-->
+<footer id="footer" style="margin-top: auto;">
     <div class="social">
             <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook" style="font-size: 2rem; color: cornflowerblue;"></i>
             <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram" style="font-size: 2rem; color: cornflowerblue;"></i>
