@@ -34,7 +34,7 @@ ul {
       overflow: hidden;
       background-color: #423b3bfd;
     }
-    li {
+li {
       display: inline-flex;
       flex-direction: column;
       align-items: center;
@@ -121,19 +121,30 @@ textarea {
 /* Keep everything in Events section centred in relation to header 
    Avoid horizontal scroll on screens minimum 320px */
 #events {
-  width: 80%;
-  margin: 0 8px 8px 8px; /* Reduces margin for smallest screen */
-}
+    width: 80%;
+    max-width: 1000px; /* Prevent excessive width on large screens */
+    margin: 0 auto; /* Center the section */
+    padding: 0 8px; /* Adjust padding for smaller screens */
+  }
 #events h3 {
   padding-left: 8px;
 }
 .event-list {
+  display: block; /* Maintain default list behavior to allow bullets to show */
   list-style-image: url('/assets/images/waves.png'); /* Custom bullet img */
   list-style-type: disc; /* Default bullet style if the image fails */
+  list-style-position: inside; /* Ensure the bullets are outside the text */
   background-color: white;
   color: black;
   padding: 0 8px 8px 8px;
 }
+.event-list li {
+  display: list-item; /* Ensures proper block-level behavior */
+  margin: 8px 0; /* Adds spacing between items */
+  padding-left: 8px; /* Space for custom bullet */
+  position: relative; /* Needed for ::before positioning */
+}
+
 #events ul {
   font-family:'Nunito', Arial, sans-serif;
   align-content: center;
@@ -175,7 +186,6 @@ textarea {
     flex-direction: row;
     justify-content: space-evenly;
     max-width: 1000px; /* Avoid long line width on wider screens */
-    margin: 0 auto; /* center the content on page */
   }
   #form {
     display: flex;
@@ -193,5 +203,6 @@ textarea {
   #events ul {
     text-wrap: 40px; /* keep line length max same as img width */
     max-width: 1000px; /* Avoid long line width on wider screens */
+    display: block; /* Maintain default list behavior */
   }
 }
