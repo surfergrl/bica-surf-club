@@ -170,11 +170,12 @@ textarea {
 }
 /* Responsive design - columns for larger screens*/
 @media (min-width: 800px) {
-  #welcome {
+  #welcome, #events {
     display: flex; 
     flex-direction: row;
     justify-content: space-evenly;
     max-width: 1000px; /* Avoid long line width on wider screens */
+    margin: 0 auto; /* center the content on page */
   }
   #form {
     display: flex;
@@ -189,8 +190,8 @@ textarea {
   .form-main {
     padding-left: 10px;
   }
-  #events {
-    display:flex;
-    flex-direction: row;
+  #events ul {
+    text-wrap: 40px; /* keep line length max same as img width */
+    max-width: 1000px; /* Avoid long line width on wider screens */
   }
 }
