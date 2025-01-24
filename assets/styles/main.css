@@ -128,13 +128,13 @@ textarea {
   padding-left: 8px;
 }
 .event-list {
+  list-style-image: url('/assets/images/waves.png'); /* Custom bullet img */
+  list-style-type: disc; /* Default bullet style if the image fails */
   background-color: white;
   color: black;
   padding: 0 8px 8px 8px;
-  display: list-item;
 }
 #events ul {
-  list-style-image: url('images/waves.png');
   font-family:'Nunito', Arial, sans-serif;
   align-content: center;
   background-color: white;

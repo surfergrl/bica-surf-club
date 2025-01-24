@@ -6,7 +6,7 @@
 
 The website can be found here: https://surfergrl.github.io/bica-surf-club/index.html 
 
-The club was set up in 2007, but the website is now badly out of date and the relaunch requires a new site. The club wants to attract new members, volunteers, sponsors and funding. 
+The club was set up in 2007, but the website is out of date and the relaunch requires a new site. The club wants to attract new members, volunteers, sponsors and funding. 
 
 Users of the site (and members of the club) are age 8+ and have differing levels of technological know-how. Users wil include the surf club members themselves, prospective members, volunteers, sponsors, local residents and visitors. 
 
@@ -57,7 +57,7 @@ Tested on
 **Acknowledgements**
 Horizontal navigation bar help via this tutorial: https://www.w3schools.com/css/css_navbar_horizontal.asp 
 
-Acknowledgement must go to Flexbox Froggy [http://flexboxfroggy.com/] from Codepip for teaching me flex display and the Flexbox cheatsheet [https://flexbox.malven.co/] used for creating column displays. ![alt text](/assets/images/readme/froggy.png)
+Flexbox Froggy [http://flexboxfroggy.com/] from Codepip for teaching me flex display and the Flexbox cheatsheet [https://flexbox.malven.co/] used for creating column displays. ![alt text](/assets/images/readme/froggy.png)
 
 **Credits**
 
