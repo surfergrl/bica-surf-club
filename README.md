@@ -9,9 +9,7 @@ By Kat Dawes
 ---
 ### Overview 
 
-This is the documentation for my project **The BICA Surf Club Website**
-
-It is Milestone Project 1 for Code Institute’s Diploma in Web Application Development.
+This is the documentation for my project **The BICA Surf Club Website**, Milestone Project 1 for Code Institute’s Diploma in Web Application Development.
 
 The website can be found here: https://surfergrl.github.io/bica-surf-club/index.html 
 
@@ -37,39 +35,66 @@ The website can be found here: https://surfergrl.github.io/bica-surf-club/index.
 
 ## Project Development & Planning
 
-### Client Background
+### Background
 
-The BICA Surf Club was set up in 2007, but the website is out of date and the relaunch requires a new site. The club wants to attract new members, volunteers, sponsors and funding. 
-
-Users of the site (and members of the club) are age 8+ and have differing levels of technological know-how. Users wil include the surf club members themselves, prospective members, volunteers, sponsors, local residents and visitors. The website's Home page and Contact page are in Welsh and English, to be welcoming to all, and to meet the criteria for community sport funding in Wales. 
-
-### Project Details & Goals
-
-- Title: The BICA Surf Club Website 
-- Purpose: To showcase the surf club, its services and opportunities 
-- External user's goal: Find out information about the club
-- Site owner's goals:
-  - To showcase events 
-  - To attract new members of all ages and skill level 
-  - To attract sponsorship
-  - To allow funding bids 
-  - To display information in both Welsh and English 
-  - To reduce administrative tasks (answering questions via email and phone) 
-- Required skills: HTML, CSS, Git version control. 
+The BICA Surf Club was set up in 2007, but the website is out of date and the relaunch requires a new site. The club wants to attract new members, volunteers, sponsors and funding, and showcase their events, information, services and opportunities. 
 
 ---
 
 ### User Stories
 
-The user stories are based on questions asked of the business owner. This can be found in the file [user-intake.md](user-intake.md)
+Questions to current club organisers:
 
+- What age range will club members and website users be?
+  - Ages 8 and over (insurance requirements).
+- Who do you think will use the website?
+  - Surf club members themselves, to check event details.
+  - People who are on holiday looking for activities.
+  - People who want to learn to surf or improve.
+  - Coaches and session volunteers, and prospective ones.
+  - Sponsors and especially prospective sponsors. 
+  - Local residents who want to see what we're up to. 
+- What experience of surfing is required? (Will the website assume surfing knowledge?)
+  - There will be kids' clubs and beginner lessons, so none.
+- What languages should be used?
+  - Welsh and English are both needed because funding in Wales often requires all materials to be bilingual. 
+- Who will be using the site?
+  - Current club members, prospective members, kids who want to learn to surf, visitors looking for an activity to do, 
+- What information do you want to show on the site?
+  - Basic information – who, where, what we do and when. We want to be able to build on this later but have limited info at the moment.
+  - How to contact us - email is best.
+  - Social media links - we're on Facebook and Instagram.
+  - An events page we can post stuff on. Information about lessons and regular club sessions which we will provide.
+  - Some photos of the club and some of our best surfers - we will provide images plus the logo.
+  - It would be nice to be able to join via the website to save us on admin. 
+- Do you have any design criteria?
+  - Clean and simple for now.
+  - A nice modern font would be good.
+  - Match the colours of the photos so probably blues, greens. Welsh flag.
+  - Just really welcoming to everyone. 
+  
+- Club organisers' goals:
+  - To attract new members of all ages and skill level 
+  - To attract sponsorship, keep sponsors up to date and give them some advertising via links/logos 
+  - To allow funding organisations to see club information 
+  - To display information in both Welsh and English to welcome all users 
+  - To reduce administrative tasks 
+  - To give information on events, regular sessions and lessons
+  - To showcase successful events and sessions
+  - To showcase the talent of surfers locally 
+  - To have space to show news/images to update all members/visitors
+  - To reduce the admin burden on the club Secretary by presenting information clearly 
+  - To collect signup information for interested parties
+  - To allow people to ask for more information
+   
 Resulting user profiles: 
-- New potential customer who wants to research services
-- New client who wants to book an initial meetup to discuss services and allow their pet/s to meet the business owner 
-- Current (registered) client who wants to book/amend booking/update pet details quickly
-- Potential client who wants to check information on services and apply to become a customer
-
-As there are so many variables (pets with different needs, walks of different lengths etc.), all customers meet with the owner in person before being able to use the site to book walks. This should be bookable online. 
+- New potential club member (any age/level) who wants to see what's on offer
+- Parents of kids who are members/want to be members - again to see what's on offer 
+- Official bodies - governing bodies e.g. Welsh Surfing Federation or insurance company, funding organisations e.g. Council
+- Sponsors 
+- Current and potential volunteers/coaches
+- Current club members
+- Visitors who might not become a member but might pay for a lesson/session/other event  
 
 ---
 
@@ -77,114 +102,82 @@ As there are so many variables (pets with different needs, walks of different le
 
 #### Market Review
 
-I looked at various sites which offer similar services. 
+I looked at three similar sites, all of which are based further south in Wales. Their size and location makes them ideal for comparison with the ambitions of the BICA Surf Club now and in the future. 
 
-![Pawshake](https://www.pawshake.co.uk/)
+![Pembs Surf Club](https://www.pembssurfclub.co.uk/)
+- Simple modern design
+- Nice colours 
+- Probably Bootstrap
+- Cool logo
+- Membership can be paid online - future development for BICA
+- List of info on/benefits of membership
+- No Welsh
+- Nice sliding effect to cards on home page
+- Simple form to get in touch
+- Social media links 
 
-- Large site offering services from lots of different individuals 
-- Can book 'Meet & Greet' online
-- Online booking only after this initial contact
-- Clear description of how their system works. https://www.pawshake.co.uk/how-does-pawshake-work
-- FAQs etc. get a bit complicated 
+![Welsh Coast Surf Club](http://www.welshcoastsurf.club/) 
+- Not been updated since 2021
+- Information on kids' club events - good detail 
+- Membership signup function (good future idea)
+- Nice banner image
+- Simple layout
+- Clear menu
+- Not bilingual
 
-![Sppot dog walking services](https://sppot.co.uk/dog-walking-service/)
-
-- Sppot does not allow booking via the site; clients must contact them using the form
-- The site has clear information about the services offered
-- The site offers a lot of contact options ![Sppot Contact Page](https://sppot.co.uk/contact-us/)
-- The site is attractive, with pictures of happy dogs
-
-![Running Duck](https://runningduckpetservices.co.uk/house-sitter-wales/)
-
-- I looked at this site as it is a small service rather than one of the large aggregate sites 
-- Reviews and details of sitters are included
-- Jumbled design with some good elements; friendly feel of a small, dedicated business
-
-Most small or micro-business dog-walking services have a basic brochure website with no booking options. Or walkers use a bigger site like Pawshake. Emma wants to be top of her league with a professional site that does more than the basics. 
-
----
-
-## Deployment
-
-Available at https://git.heroku.com/scallywags.git 
-
----
-
-### Features
-
-#### User Authentication
-- Register, login, logout. 
-- Forgot password system. 
-- Profiles with editable address, phone number and client photo fields.
-
-#### Pet Management
-- Add/edit/remove pets.
-- Form validation for pet details (e.g., mandatory fields like name and age).
-- Pet info: Name, age, breed, behavioural issues, medical issues, vet contact details, max walk length, any other notes, photo, equipment (lead etc.), treats y/n, commands to use, pickup instructions (e.g. keypad number).
-- Agreemet to terms & conditions - mandatory tick box 
-
-#### Booking System
-- Users can view available slots for dog walking/sitting/meet & greet appointment.
-- Booking forms with validation (e.g., check for overlapping slots).
-
-#### Stripe Integration
-- Payment for bookings through Stripe’s test mode.
-- Email booking confirmation upon successful payment.
-- (Future feature - appointment reminders.) 
-
-#### Navigation and Layout
-- Main navigation bar with links: Home, About, Contact, Services, Login
-- Bootstrap for responsive design.
-
-#### JavaScript Enhancements
-- Real-time validation of booking forms (e.g., prevent double-booking on the same slot).
-- Interactive calendar to select available slots.
+![Shaka Surf Women](https://www.shakasurfwomen.com/)
+- More advanced site with a shop and merchandise
+- Sign up to newsletter
+- Dropdown menus
+- Great colours and professional images
+- News/blog area but not much content
+- Ability to book sessions
+- Events detail
+- Easy to contact them 
 
 ---
 
-### Further Developments
-
-- Ability to book pet-sitting days/weeks online as well as walks. 
-- Google Maps integration for service areas.
-- Admin dashboard to manage bookings and users.
-
---- 
 
 ### Structure
 
-#### App Structure
 
-##### Main App (core)
-- Handles the landing page, about section, navigation, and site-wide settings.
+I have chosen to use three different pages rather than sections on one page. This has allowed me to split the information up and organise it into more manageable sections.  
 
-##### User Authentication App (users)
-- Handles user registration, login, and profile management.
+The [wireframes](/assets/wireframes/) are available in the assets folder.
 
-##### Pets App (pets)
-- Allows users to save details about their pets (e.g., name, breed, age, medical notes).
+One page gives basic information on the club including sponsors. 
 
-##### Booking App (booking)
-- Manages booking of dog walking or sitting sessions, availability, and schedule display.
+The Events page is organised to allow people to find suitable activities. Text appears in sections with meaningful headings and includes some images of local surfing. 
 
-##### Payments App (payments)
-- Integrates Stripe for payment processing, tracks completed payments, and unlocks booking confirmations.
+The Sign Up page allows users to sign up to the club and ask for more information. This directly meets the last two aims of the site. 
 
-#### Database Structure 
 
-##### User (AbstractUser)
-- Extended user model for additional fields like address and phone number.
 
-##### Pet
-- Fields: user (ForeignKey), name, breed, age, medical_notes, profile_picture
-- Relationship: Many pets per user.
+### Features
 
-##### Booking
-- Fields: user (ForeignKey), pet (ForeignKey), service_type (choices: Walking, Sitting), date, time, duration, status (Pending/Confirmed)
-- Relationship: One booking per pet per session.
+#### Navigation and Layout
+- Main navigation bar with links: Home, About, Contact
+- Three content pages: Home, About, Contact 
+- Header and footer consistent for each page 
 
-##### Payment
-- Fields: user (ForeignKey), booking (ForeignKey), amount, payment_status, transaction_id
-- Relationship: One payment per booking.
+#### Home Page
+- 
+
+---
+
+### Future Developments
+
+- Use of a template for the HTML pages for ease of making changes
+- Embed social media content - an easy way for members to share images  
+- Google Maps integration for showing beach/event locations
+- Some animation of content e.g. events photos fading in
+- Professional images from local pro-photographer 
+
+As the club has only recently reformed, these ideas will only be relevant as it develops, but would make the site much more useful. 
+- News feature for event photos and reports
+- Gallery feature to showcase some of the best images from club events
+- Newsletter signup 
+
 
 ---
 
@@ -215,11 +208,6 @@ Keeping the design clean and simple was a priority both for UX and responsivenes
 
 --- 
 
-### Structure
-
-The website consists of 5 pages: Home, About, Contact, Services and Login.   
-
----
 
 #### The Scallywags Nanny Home Page 
 
@@ -294,8 +282,14 @@ Fonts - complement the logo colours/style
 - Python
 - Heroku
 - GitHub
-- 
 
+--- 
+
+## Deployment
+
+Available at 
+
+---
 ## Testing, Bugs and issues
 
 The app does not yet work as planned. 
