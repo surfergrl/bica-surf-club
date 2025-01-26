@@ -5,7 +5,7 @@
 
 <img src="assets/images/readme/mockup.png">
 
-## The BICA Surf Club website hosts three pages of information about the surf club based in Llangrannog, West Wales.
+### The BICA Surf Club website hosts three pages of information about the surf club based in Llangrannog, West Wales.
 
 By Kat Dawes
 
@@ -18,27 +18,29 @@ The website can be found here: https://surfergrl.github.io/bica-surf-club/index.
 
 ## Table of Contents
 
-- [Project Development & Planning] (#project-development--planning)
-  - Project Goals
-  - Client Background
-  - User Stories  
-  - Research
-- Content
-- Design, Layout & Structure
-  - Colours
-- Features
-- Structure & Site Functionality
-  - Technologies Used
-  - Database Structure 
-  - Deployment - Setup Instructions: Step-by-step guide for local setup.
-  - Testing & Bugs
-- Credits
+- [Project Development & Planning](#project-development--planning)
+  - [Project Goals](#project-goals)
+  - [Background](#background)
+  - [User Stories](#user-stories)  
+  - [Market Review](#market-review) 
+- [Scope and Structure](#scope--structure-of-the-site) 
+  - [Scope](#scope) 
+  - [Structure](#navigation-and-layout--structure)
+  - [Future developments](#future-developments)
+- [Wireframes – Skeleton](#wireframes-skeleton-plane) 
+- [Design & Layout](#design-layout-colours)
+  - [Colours and fonts](#colours) 
+- [Deployment](#deployment) 
+- [Technologies Used](#technologies-used)
+- [Validation & Testing](#validation-and-testing) 
+- [Credits](#credits)
+- [Thanks](#thanks-to)
 
 ---
 
 The site needs to conform to the principles of UX in all five different planes – strategy, scope, structure, skeleton and surface.
 
-## Project Development & Planning – Strategy 
+## Project Development & Planning - Strategy 
 
 ### Background
 
@@ -154,7 +156,7 @@ I looked at three similar sites, all of which are based further south in Wales. 
 
 ---
 
-### Scope & Structure of the site 
+## Scope & Structure of the site 
 
 I have chosen to use three different pages rather than sections on one page. This has allowed me to split the information up and organise it into more manageable sections. There is very limited content at the moment, but this structure will allow for the content to grow as the club does. 
 
@@ -231,8 +233,6 @@ Keeping the design clean and simple was a priority both for UX and responsivenes
 
 ## Design, layout, colours
 
----
-
 ### Appearance - Surface plane
 
 #### Colours
@@ -259,7 +259,6 @@ Nunito
 ## Deployment
 
 The site is available at: https://surfergrl.github.io/bica-surf-club/events.html
-
 
 ### GitHub Pages
 
