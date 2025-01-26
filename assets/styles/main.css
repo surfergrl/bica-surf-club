@@ -60,7 +60,7 @@ li {
   width: 100%;
   background-size: cover;
   background-color: cadetblue;
-  background: url("/assets/images/wave-polina-kuzovkova.jpg") no-repeat center center;
+  background: url("assets/images/wave-polina-kuzovkova.jpg") no-repeat center center;
 } 
 /* logo will float over header image if viewport is < header image width */
   #logo {
