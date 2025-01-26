@@ -60,7 +60,7 @@ li {
   width: 100%;
   background-size: cover;
   background-color: cadetblue;
-  background: url("/images/wave-polina-kuzovkova.jpg") no-repeat center center;
+  background: url("../images/wave-polina-kuzovkova.jpg") no-repeat center center;
 } 
 /* logo will float over header image if viewport is < header image width */
   #logo {
@@ -131,7 +131,7 @@ textarea {
 }
 .event-list {
   display: block; /* Maintain default list behavior to allow bullets to show */
-  list-style-image: url('/assets/images/waves.png'); /* Custom bullet img */
+  list-style-image: url('/images/waves.png'); /* Custom bullet img */
   list-style-type: disc; /* Default bullet style if the image fails */
   list-style-position: inside; /* Ensure the bullets are outside the text */
   background-color: white;
