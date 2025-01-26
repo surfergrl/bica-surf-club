@@ -154,8 +154,6 @@ I looked at three similar sites, all of which are based further south in Wales. 
 
 I have chosen to use three different pages rather than sections on one page. This has allowed me to split the information up and organise it into more manageable sections. There is very limited content at the moment, but this structure will allow for the content to grow as the club does. 
 
-The [wireframes](/assets/wireframes/) are available in the assets folder.
-
 #### Navigation and Layout
 - Main navigation bar with links: Home, About, Contact
 - Three content pages: Home, About, Contact 
@@ -198,6 +196,30 @@ As the club has only recently reformed, these ideas will only be relevant as it 
 - Newsletter signup 
 
 ---
+## Wireframes 
+
+I used Balsamiq to create wireframes for each of the three pages. 
+I used a mobile-first approach. 
+Keeping the design clean and simple was a priority both for UX and responsiveness.
+
+#### Index page
+
+![index page mockup](assets/wireframes/Index-mobile.png) 
+
+![index page mockup](assets/wireframes/Index.png) 
+
+
+#### Events page
+
+![events page mockup](assets/wireframes/Events-mobile.png)
+
+![events page mockup](assets/wireframes/Events.png)
+
+#### Contact page 
+
+![contact page mockup](assets/wireframes/Contact-Us-mobile.png)
+
+![contact page mockup](assets/wireframes/Contact-Us.png) 
 
 ## Design, layout, colours
 
@@ -212,17 +234,6 @@ The Scallywags Nanny
 
 ##### Tag-line 
 Your trusted dog-walking and pet-sitting service in and around Bristol 
-
----
-### Wireframes
-
-I first sketched (on paper) the basic layout for the pages.
-
-Keeping the design clean and simple was a priority both for UX and responsiveness.
-
-- insert scans of drawings
-
-- Wireframes
 
 --- 
 
