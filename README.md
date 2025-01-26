@@ -1,13 +1,14 @@
 ![BICA surf club](/assets/images/bica-logo.png "BICA surf club Logo")
 
-# BICA Surf Club Version 2.0 
+# BICA Surf Club 
+### Version 2.0 
 
 ## The BICA Surf Club website hosts three pages of information about the surf club based in Llangrannog, West Wales.
 
 By Kat Dawes
 
 ---
-### Overview 
+## Overview 
 
 This is the documentation for my project **The BICA Surf Club Website**, Milestone Project 1 for Code Institute’s Diploma in Web Application Development.
 
@@ -106,7 +107,7 @@ Questions to current club organisers:
 - Current and potential volunteers/coaches
   - Info on dates and times of events
 - Current club members
-- - Event information
+  - Event information
   - How to get in touch
   - Background of club and members 
 - Visitors who might not become a member but might pay for a lesson/session/other event
@@ -302,6 +303,14 @@ The project will now be cloned locally for you to use.
 ## Validation and Testing 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/surfergrl/bica-surf-club)
 
+#### Bugs
+
+Hero image
+I initially chose the image panofeb23-header-s.jpeg (still available in /assets/images) but despite resizing and trying various dispaly options it only ever showed a small portion of the centre of the image. I wanted to include the whole beach panorama. Requested help from Tutor Support who explained that this was not a suitable image as the focus point is too wide. Replaced image with a stock image from Unsplash. 
+
+Logo
+I initially wanted the logo to sit neatly on the bottom left of the hero image and move along with it. In the end I am happy with it floating a little more freely - this works well with different viewport sizes. In the end I prefer the logo floating off the header image, as it has a different look in what is otherwise a standard aesthetic. 
+
 ### HTML run through W3C validator 
 
 Errors on index.html:
@@ -346,12 +355,47 @@ One error was found with text-wrap property given a pixels value; this was chang
     </a>
 </p>
 
-Tested on 
-- Chrome Version 110.0.5481.177 renders as expected 
-- Firefox 110.0 renders as expected 
-- Safari 16.2 renders as expected 
+#### Tested on 
+- Chrome Version 131.0.6778.265 renders as expected 
+- Firefox 134.0.1 renders as expected 
+- Safari 17.6 renders as expected 
 - Microsoft Edge renders as expected  
 - Internet Explorer via Edge IE mode poor (as expected)
+
+### Testing against user stories 
+
+- New potential club member (any age/level) who wants to see what's on offer
+  - Information on events and how to join
+  - Background info e.g. who runs it, is it safe, qualifications
+  - Membership costs
+- Parents of kids who are members/want to be members - again to see what's on offer
+  - As above 
+
+<details><summary>Screenshots</summary>
+<img src="assets/images/readme/events-screenshot.png">
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Short Bio • Find Out More Button • About Us Text | Scroll down on homepage, read short bio, click on 'find out more' button, read more detail on About Us page | Find information about the band | Works as expected |
+| Nav Bar - About Us Link • About Us Text | Click on "ABOUT US" on nav, read more detail on About Us page | Find information about the band | Works as expected |
+
+
+
+- Official bodies - governing bodies e.g. Welsh Surfing Federation or insurance company, funding organisations e.g. Council
+  - In the future, information on policies, member qualifications to run events 
+- Sponsors
+  - Space for their logo
+  - Images of club events with logos/banners etc. 
+- Current and potential volunteers/coaches
+  - Info on dates and times of events
+- Current club members
+  - Event information
+  - How to get in touch
+  - Background of club and members 
+- Visitors who might not become a member but might pay for a lesson/session/other event
+  - Event information for visitors 
+
 
 ---
 
@@ -362,11 +406,18 @@ Bootstrap Icons for social media buttons https://cdn.jsdelivr.net/npm/bootstrap-
 Horizontal navigation bar help via this tutorial: https://www.w3schools.com/css/css_navbar_horizontal.asp 
 
 Flexbox Froggy [http://flexboxfroggy.com/] from Codepip for teaching me flex display and the Flexbox cheatsheet [https://flexbox.malven.co/] used for creating column displays. ![alt text](/assets/images/readme/froggy.png)
+Contact Us page image of Carreg Bica rock: Visit Wales assets https://www.assets.wales.com/assets Crown Copyright 
+
+Hero image by <a href="https://unsplash.com/es/@p_kuzovkova?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Polina Kuzovkova</a> on <a href="https://unsplash.com/photos/0-FBo3a8ytU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Local surfer images by Hedz Llewelyn, Carol Vincent and Emily J with permission.
+
+<a href="https://www.flaticon.com/free-icons/wave" title="wave icons">Wave icons created by Ayub Irawan - Flaticon</a>
 
 
 ## Thanks to
 
-Mentor: Richard Wells 
+Mentor: Richard Wells https://github.com/D0nni387 
 Help with CSS: CI tutor Oisin Tohak ![Oisin](assets/images/readme/oisin.png)
 
 ---
