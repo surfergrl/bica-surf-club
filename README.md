@@ -5,7 +5,7 @@
 
 <img src="assets/images/readme/mockup.png">
 
-### The BICA Surf Club website hosts three pages of information about the surf club based in Llangrannog, West Wales.
+### The 'BICA Surf Club' website hosts three pages of information about the surf club based in Llangrannog, West Wales.
 
 By Kat Dawes
 
@@ -41,6 +41,7 @@ The website can be found here: https://surfergrl.github.io/bica-surf-club/index.
 The site needs to conform to the principles of UX in all five different planes – strategy, scope, structure, skeleton and surface.
 
 ## Project Development & Planning - Strategy 
+[Top](#table-of-contents)
 
 ### Background
 
@@ -51,10 +52,11 @@ The club wants to attract new members, volunteers, sponsors and funding, and sho
 ---
 
 ### User Stories
+[Top](#table-of-contents)
 Questions to current club organisers:
 
 - What age range will club members and website users be?
-  - Ages 8 and over (insurance requirements).
+  - Ages 8 and over (for insurance requirements).
 - Who do you think will use the website?
   - Surf club members themselves, to check event details.
   - People who are on holiday looking for activities.
@@ -67,7 +69,7 @@ Questions to current club organisers:
 - What languages should be used?
   - Welsh and English are both needed because funding in Wales often requires all materials to be bilingual. 
 - Who will be using the site?
-  - Current club members, prospective members, kids who want to learn to surf, visitors looking for an activity to do, 
+  - Current club members, prospective members, kids who want to learn to surf, visitors looking for an activity to do. 
 - What information do you want to show on the site?
   - Basic information – who, where, what we do and when. We want to be able to build on this later but have limited info at the moment.
   - How to contact us - email is best.
@@ -75,7 +77,7 @@ Questions to current club organisers:
   - An events page we can post stuff on. Information about lessons and regular club sessions which we will provide.
   - Some photos of the club and some of our best surfers - we will provide images plus the logo.
   - It would be nice to be able to join via the website to save us on admin.
-  - How much the club will cost to join for a year – this hasn't been decided yet. 
+  - How much the club will cost to join for a year? This hasn't been decided yet. 
 - Do you have any design criteria?
   - Clean and simple for now.
   - A nice modern font would be good.
@@ -119,7 +121,8 @@ Questions to current club organisers:
 
 ---
 
-#### Market Review
+### Market Review
+[Top](#table-of-contents)
 
 I looked at three similar sites, all of which are based further south in Wales. Their size and location makes them ideal for comparison with the ambitions of the BICA Surf Club now and in the future. 
 
@@ -153,16 +156,19 @@ I looked at three similar sites, all of which are based further south in Wales. 
 - Ability to book sessions
 - Events detail
 - Easy to contact them 
+- Not bilingual 
 
 ---
 
 ## Scope & Structure of the site 
+[Top](#table-of-contents)
 
 I have chosen to use three different pages rather than sections on one page. This has allowed me to split the information up and organise it into more manageable sections. There is very limited content at the moment, but this structure will allow for the content to grow as the club does. 
 
 ### Scope
 #### Home Page
 - Basic information on the club including sponsors
+- Welsh and Enlish
 
 #### Events
 - List activities
@@ -172,13 +178,14 @@ I have chosen to use three different pages rather than sections on one page. Thi
   - Age 8+
   - Qualified instructors 
 - Text appears in three sections with meaningful headings
+  - Coaching
   - Lessons
-  - Regualr surf session
-  - Surf Trip
-- Include some images of local surfing
+  - Kids' Club 
+- Include images of local surfing if provided 
 
 #### Contact
-- Form to allow queries
+- Form to allow queries 
+- There will also be an email button on the footer on every page 
 
 ### Navigation and Layout – Structure 
 - Header on each page with logo which returns user to Index page
@@ -186,11 +193,14 @@ I have chosen to use three different pages rather than sections on one page. Thi
 - Three content pages: Home, About, Contact 
 - Sponsor logos above footer on each page - takes users to sponsor's site in a new tab
 - Footer on each page with social media links - takes users to social media account in a new tab
+- Footer includes email button to open a blank email with club email address filled in 
 - Contact form to include feedback on user interaction e.g. error page or 'thank you' page 
   
 ---
 
 ### Future Developments
+[Top](#table-of-contents)
+
 - Use of a template for the HTML pages for ease of making changes
 - Embed social media content - an easy way for members to share images  
 - Google Maps integration for showing beach/event locations
@@ -203,9 +213,11 @@ As the club has only recently reformed, these ideas will only be relevant as it 
 - News feature for event photos and reports
 - Gallery feature to showcase some of the best images from club events
 - Newsletter signup 
+- Signup link for WhatsApp group/s (as for Shaka club)
 
 ---
 ## Wireframes – Skeleton plane 
+[Top](#table-of-contents)
 
 I used Balsamiq to create wireframes for each of the three pages. 
 I used a mobile-first approach. 
@@ -213,25 +225,33 @@ Keeping the design clean and simple was a priority both for UX and responsivenes
 
 #### Index page
 
+<details><summary>Index page screenshots </summary>
+
 ![index page mockup](assets/wireframes/Index-mobile.png) 
 
 ![index page mockup](assets/wireframes/Index.png) 
+</details>
 
-
-#### Events page
+<details><summary>Events page screenshots </summary>
 
 ![events page mockup](assets/wireframes/Events-mobile.png)
 
 ![events page mockup](assets/wireframes/Events.png)
 
+</details>
+
 #### Contact page 
 
+<details><summary>Contact Us page screenshots </summary>
 
 ![contact page mockup](assets/wireframes/Contact-Us-mobile.png)
 
 ![contact page mockup](assets/wireframes/Contact-Us.png) 
 
+</details>
+
 ## Design, layout, colours
+[Top](#table-of-contents)
 
 ### Appearance - Surface plane
 
@@ -257,6 +277,7 @@ Nunito
 ---
 
 ## Deployment
+[Top](#table-of-contents)
 
 The site is available at: https://surfergrl.github.io/bica-surf-club/events.html
 
@@ -289,6 +310,7 @@ The project will now be cloned locally for you to use.
 
 ---
 ## Technologies Used
+[Top](#table-of-contents)
 
 - [HTML](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -298,6 +320,7 @@ The project will now be cloned locally for you to use.
 
 --- 
 ## Validation and Testing 
+[Top](#table-of-contents)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/surfergrl/bica-surf-club)
 
 ### Bugs
@@ -429,6 +452,7 @@ Appears on all pages above the footer.
 | Three event info sections | Read event information | See event information | Works as expected |
 | Intro section | Read intro to club on index page | See information bilingually | Works as expected | 
 | Contact form | Contact the club | Contact the club | Works as expected |
+| Email button on footer | Click to email | Blank email opens | Works as expected |
 
 ### Conclusion
 The user stories are broadly matched by the functionality of the site, but some areas do not yet have enough information. As the club develops this information will be created and can be uploaded as relevant. A new page for policies and coach information would be the next step, as well as a gallery for more sponsor visibility and exposure of club members and successful events. 
@@ -438,6 +462,7 @@ For now, the site is able to give the basic information users require, and allow
 ---
 
 ## Credits
+[Top](#table-of-contents)
 
 Bootstrap Icons for social media buttons https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css
 
@@ -454,6 +479,7 @@ Local surfer images by Hedz Llewelyn, Carol Vincent and Emily J with permission.
 
 
 ## Thanks to
+[Top](#table-of-contents)
 
 Mentor: Richard Wells https://github.com/D0nni387 
 
