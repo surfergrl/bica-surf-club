@@ -66,7 +66,8 @@ Questions to current club organisers:
   - Social media links - we're on Facebook and Instagram.
   - An events page we can post stuff on. Information about lessons and regular club sessions which we will provide.
   - Some photos of the club and some of our best surfers - we will provide images plus the logo.
-  - It would be nice to be able to join via the website to save us on admin. 
+  - It would be nice to be able to join via the website to save us on admin.
+  - How much the club will cost to join for a year – this hasn't been decided yet. 
 - Do you have any design criteria?
   - Clean and simple for now.
   - A nice modern font would be good.
@@ -89,12 +90,24 @@ Questions to current club organisers:
    
 Resulting user profiles: 
 - New potential club member (any age/level) who wants to see what's on offer
-- Parents of kids who are members/want to be members - again to see what's on offer 
+  - Information on events and how to join
+  - Background info e.g. who runs it, is it safe, qualifications
+  - Membership costs 
+- Parents of kids who are members/want to be members - again to see what's on offer
+  - As above 
 - Official bodies - governing bodies e.g. Welsh Surfing Federation or insurance company, funding organisations e.g. Council
-- Sponsors 
+  - In the future, information on policies, member qualifications to run events 
+- Sponsors
+  - Space for their logo
+  - Images of club events with logos/banners etc. 
 - Current and potential volunteers/coaches
+  - Info on dates and times of events
 - Current club members
-- Visitors who might not become a member but might pay for a lesson/session/other event  
+- - Event information
+  - How to get in touch
+  - Background of club and members 
+- Visitors who might not become a member but might pay for a lesson/session/other event
+  - Event information for visitors 
 
 ---
 
@@ -137,23 +150,11 @@ I looked at three similar sites, all of which are based further south in Wales. 
 
 ---
 
-
 ### Structure
 
-
-I have chosen to use three different pages rather than sections on one page. This has allowed me to split the information up and organise it into more manageable sections.  
+I have chosen to use three different pages rather than sections on one page. This has allowed me to split the information up and organise it into more manageable sections. There is very limited content at the moment, but this structure will allow for the content to grow as the club does. 
 
 The [wireframes](/assets/wireframes/) are available in the assets folder.
-
-One page gives basic information on the club including sponsors. 
-
-The Events page is organised to allow people to find suitable activities. Text appears in sections with meaningful headings and includes some images of local surfing. 
-
-The Sign Up page allows users to sign up to the club and ask for more information. This directly meets the last two aims of the site. 
-
-
-
-### Features
 
 #### Navigation and Layout
 - Main navigation bar with links: Home, About, Contact
@@ -161,7 +162,23 @@ The Sign Up page allows users to sign up to the club and ask for more informatio
 - Header and footer consistent for each page 
 
 #### Home Page
-- 
+- Basic information on the club including sponsors
+
+#### Events
+- List activities
+  - Cost
+  - Location
+  - Times
+  - Age 8+
+  - Qualified instructors 
+- Text appears in three sections with meaningful headings
+  - Lessons
+  - Regualr surf session
+  - Surf Trip
+- Include some images of local surfing
+
+#### Contact
+- Form to allow queries 
 
 ---
 
@@ -174,10 +191,11 @@ The Sign Up page allows users to sign up to the club and ask for more informatio
 - Professional images from local pro-photographer 
 
 As the club has only recently reformed, these ideas will only be relevant as it develops, but would make the site much more useful. 
+- More information on club members and their qualifications
+- Policies e.g. DBS checks, safety policy, constitution 
 - News feature for event photos and reports
 - Gallery feature to showcase some of the best images from club events
 - Newsletter signup 
-
 
 ---
 
