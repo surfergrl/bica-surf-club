@@ -305,9 +305,11 @@ The project will now be cloned locally for you to use.
 
 HTML run through W3C validator 
 
-CSS run through Jigsaw
+
+CSS run through Jigsaw 
+One error was found with text-wrap property given a pixels value; this was changed to 'wrap'. 
 <p>
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <a href="http://jigsaw.w3.org/css-validator">
         <img style="border:0;width:88px;height:31px"
             src="http://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" />

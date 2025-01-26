@@ -201,7 +201,7 @@ textarea {
     padding-left: 10px;
   }
   #events ul {
-    text-wrap: 40px; /* keep line length max same as img width */
+    text-wrap: wrap; /* keep line length max same as img width */
     max-width: 1000px; /* Avoid long line width on wider screens */
     display: block; /* Maintain default list behavior */
   }
