@@ -305,6 +305,20 @@ The project will now be cloned locally for you to use.
 
 HTML run through W3C validator 
 
+Errors on index.html:
+- Widths for the logo and main image had px specified when that was not needed. Deleted. 
+- Section for the logo was changed into a div element at the validator's suggestion. 
+- Span links were removed as not necessary. 
+- Added closing tags for links in the correct place (footer). 
+- The validator threw errors for the code copied from the CSS validator to display the 'Valid CSS' image. I deleted this altogether. 
+
+Errors on contact.html: 
+Similar errors showed up on the contact page. 
+- Widths on images had px specified when that was not needed. Deleted. 
+- Section for the logo was changed into a div element at the validator's suggestion. 
+- Span links were removed as not necessary. 
+- Added closing tags for links in the correct place in the footer. 
+- The validator threw errors for the code copied from the CSS validator to display the 'Valid CSS' image. I deleted this altogether. 
 
 CSS run through Jigsaw 
 One error was found with text-wrap property given a pixels value; this was changed to 'wrap'. 
