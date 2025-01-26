@@ -186,7 +186,6 @@ I have chosen to use three different pages rather than sections on one page. Thi
 ---
 
 ### Future Developments
-
 - Use of a template for the HTML pages for ease of making changes
 - Embed social media content - an easy way for members to share images  
 - Google Maps integration for showing beach/event locations
@@ -248,26 +247,23 @@ I also wanted to ensure that the fonts complement the ocean theme of the site. I
 - [Techsini Mockup](https://techsini.com/multi-mockup/) - mockup images for the README
 - [Favicon.io](https://favicon.io/favicon-converter/) - Create favicon
 
-Fonts - complement the logo colours/style  
-1. [Six Hands Rough](https://www.onlinewebfonts.com/download/f6db36f5c636e2adf912702a4ad751ec) font for headings
-2. subheadings
-3. body text
+Fonts 
+These fonts complement the logo style and are in keeping with the simple, clean lines of the site 
+Roboto
+[Roboto](https://fonts.googleapis.com/css?family=Roboto|Nunito:300) font for headings
+![Roboto font example](assets/images/Roboto.png)
+
+Nunito
+[Nunito](https://fonts.googleapis.com/css?family=Roboto|Nunito:300) for body text 
+![Nunito font example](assets/images/Nunito.png)
+
 
 ---
-
-## Technologies Used
-
-- [HTML](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-- GitHub version control 
-
---- 
 
 ## Deployment
 
 The site is available at: https://surfergrl.github.io/bica-surf-club/events.html
 
-## Deployment
 
 ### GitHub Pages
 
@@ -297,20 +293,39 @@ You can clone the repository to use locally by following these steps:
 The project will now be cloned locally for you to use.
 
 ---
-## Testing, Bugs and issues
+## Technologies Used
 
-The app does not yet work as planned. 
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- GitHub version control 
 
-As such, the ReadMe does not yet reflect the  app in its current form. 
+--- 
+## Validation and Testing 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/surfergrl/bica-surf-club)
+
+HTML run through W3C validator 
+
+CSS run through Jigsaw
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+Tested on 
+- Chrome Version 110.0.5481.177 renders as expected 
+- Firefox 110.0 renders as expected 
+- Safari 16.2 renders as expected 
+- Microsoft Edge renders as expected  
+- Internet Explorer via Edge IE mode poor (as expected)
 
 ---
 
-## Credits
-
-[Start Bootstrap](https://github.com/StartBootstrap/startbootstrap-small-business)
+## Thanks to
 
 Mentor: Richard Wells 
-
-
+Support: Oisin Tohak ![Oisin](assets/images/oisin.png)
 
 ---
