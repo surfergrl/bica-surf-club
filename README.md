@@ -265,7 +265,7 @@ Fonts - complement the logo colours/style
 
 ## Deployment
 
-The site is available at: 
+The site is available at: https://surfergrl.github.io/bica-surf-club/events.html
 
 ## Deployment
 
