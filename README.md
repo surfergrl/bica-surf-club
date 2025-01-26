@@ -1,6 +1,6 @@
 ![BICA surf club](/assets/images/bica-logo.png "BICA surf club Logo")
 
-# BICA Surf Club
+# BICA Surf Club Version 2.0 
 
 ## The BICA Surf Club website hosts three pages of information about the surf club based in Llangrannog, West Wales.
 
@@ -251,11 +251,11 @@ Fonts
 These fonts complement the logo style and are in keeping with the simple, clean lines of the site 
 Roboto
 [Roboto](https://fonts.googleapis.com/css?family=Roboto|Nunito:300) font for headings
-![Roboto font example](assets/images/Roboto.png)
+![Roboto font example](assets/images/readme/Roboto.png)
 
 Nunito
 [Nunito](https://fonts.googleapis.com/css?family=Roboto|Nunito:300) for body text 
-![Nunito font example](assets/images/Nunito.png)
+![Nunito font example](assets/images/readme/Nunito.png)
 
 ---
 
@@ -305,6 +305,8 @@ The project will now be cloned locally for you to use.
 ### HTML run through W3C validator 
 
 Errors on index.html:
+![Validator](assets/images/readme/valid-index.png)
+
 - Widths for the logo and main image had px specified when that was not needed. Deleted. 
 - Section for the logo was changed into a div element at the validator's suggestion. 
 - Span links were removed as not necessary. 
@@ -315,6 +317,8 @@ Now validates.
 Similar errors showed up on the Contact Us and Events page as Index was used as a template for the other pages. 
 
 Errors on contact.html: 
+![Validator](assets/images/readme/valid-contact.png)
+
 - Widths on images had px specified when that was not needed. Deleted. 
 - Section for the logo was changed into a div element at the validator's suggestion. 
 - Span links were removed as not necessary. 
@@ -323,6 +327,8 @@ Errors on contact.html:
 Now validates. 
 
 Errors on events.html
+![Validator](assets/images/readme/valid-events.png)
+
 - Widths on images had px specified; not correct html. Deleted. 
 - Section for the logo was changed into a div element at the validator's suggestion. 
 - Fixed missing div end tag; this fixed the section error as well.  
@@ -351,7 +357,7 @@ Tested on
 
 ## Credits
 
-Bootstrap Icons for social media https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css
+Bootstrap Icons for social media buttons https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css
 
 Horizontal navigation bar help via this tutorial: https://www.w3schools.com/css/css_navbar_horizontal.asp 
 
@@ -360,7 +366,7 @@ Flexbox Froggy [http://flexboxfroggy.com/] from Codepip for teaching me flex dis
 
 ## Thanks to
 
-Mentor: Richard Wells for much reassurance 
-Help with CSS: CI tutor Oisin Tohak ![Oisin](assets/images/oisin.png)
+Mentor: Richard Wells 
+Help with CSS: CI tutor Oisin Tohak ![Oisin](assets/images/readme/oisin.png)
 
 ---
