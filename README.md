@@ -53,6 +53,7 @@ The club wants to attract new members, volunteers, sponsors and funding, and sho
 
 ### User Stories
 [Top](#table-of-contents)
+
 Questions to current club organisers:
 
 - What age range will club members and website users be?
@@ -223,16 +224,14 @@ I used Balsamiq to create wireframes for each of the three pages.
 I used a mobile-first approach. 
 Keeping the design clean and simple was a priority both for UX and responsiveness.
 
-#### Index page
-
-<details><summary>Index page screenshots </summary>
+<details><summary>Index page wireframes </summary>
 
 ![index page mockup](assets/wireframes/Index-mobile.png) 
 
 ![index page mockup](assets/wireframes/Index.png) 
 </details>
 
-<details><summary>Events page screenshots </summary>
+<details><summary>Events page wireframes </summary>
 
 ![events page mockup](assets/wireframes/Events-mobile.png)
 
@@ -240,9 +239,7 @@ Keeping the design clean and simple was a priority both for UX and responsivenes
 
 </details>
 
-#### Contact page 
-
-<details><summary>Contact Us page screenshots </summary>
+<details><summary>Contact Us page wireframes </summary>
 
 ![contact page mockup](assets/wireframes/Contact-Us-mobile.png)
 
@@ -266,11 +263,12 @@ I wanted to ensure readability and consistency throughout the app, maintaining a
 I also wanted to ensure that the fonts complement the ocean theme of the site. I used GoogleFonts and FontAwesome. 
 
 These fonts complement the logo style and are in keeping with the simple, clean lines of the site 
-Roboto
+
+
 [Roboto](https://fonts.googleapis.com/css?family=Roboto|Nunito:300) font for headings
 ![Roboto font example](assets/images/readme/Roboto.png)
 
-Nunito
+
 [Nunito](https://fonts.googleapis.com/css?family=Roboto|Nunito:300) for body text 
 ![Nunito font example](assets/images/readme/Nunito.png)
 
@@ -321,14 +319,17 @@ The project will now be cloned locally for you to use.
 --- 
 ## Validation and Testing 
 [Top](#table-of-contents)
+
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/surfergrl/bica-surf-club)
 
 ### Bugs
 
-*Hero image*
+#### Hero image
+
 I initially chose the image panofeb23-header-s.jpeg (still available in /assets/images) but despite resizing and trying various dispaly options it only ever showed a small portion of the centre of the image. I wanted to include the whole beach panorama. Requested help from Tutor Support who explained that this was not a suitable image as the focus point is too wide. Replaced image with a stock image from Unsplash. 
 
-*Logo* 
+#### Logo
+
 I initially wanted the logo to sit neatly on the bottom left of the hero image and move along with it. In the end I am happy with it floating a little more freely - this works well with different viewport sizes. In the end I prefer the logo floating off the header image, as it has a different look in what is otherwise a standard aesthetic. 
 
 ### HTML run through W3C validator 
@@ -441,7 +442,7 @@ Appears on all pages above the footer.
   - How to get in touch
   - Background of club and members 
 
-<details><summary>Screenshots </summary>
+<details><summary>Screenshots of events, welcome intro and contact form </summary>
 <img src="assets/images/readme/events-screenshot.png">
 <img src="assets/images/readme/croeso-screenshot.png">
 <img src="assets/images/readme/contact-screenshot.png">
