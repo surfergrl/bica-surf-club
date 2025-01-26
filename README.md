@@ -1,4 +1,4 @@
-![alt text](/assets/images/bica-logo.png "BICA surf club Logo")
+![BICA surf club](/assets/images/bica-logo.png "BICA surf club Logo")
 
 # BICA Surf Club
 
@@ -33,16 +33,19 @@ The website can be found here: https://surfergrl.github.io/bica-surf-club/index.
 
 ---
 
-## Project Development & Planning
+The site needs to conform to the principles of UX in all five different planes – strategy, scope, structure, skeleton and surface.
+
+## Project Development & Planning – Strategy 
 
 ### Background
 
-The BICA Surf Club was set up in 2007, but the website is out of date and the relaunch requires a new site. The club wants to attract new members, volunteers, sponsors and funding, and showcase their events, information, services and opportunities. 
+The BICA Surf Club was set up in 2007, but the website is out of date and the relaunch requires a new site. 
+
+The club wants to attract new members, volunteers, sponsors and funding, and showcase their events, information, services and opportunities. 
 
 ---
 
 ### User Stories
-
 Questions to current club organisers:
 
 - What age range will club members and website users be?
@@ -88,7 +91,7 @@ Questions to current club organisers:
   - To collect signup information for interested parties
   - To allow people to ask for more information
    
-Resulting user profiles: 
+#### Resulting user profiles: 
 - New potential club member (any age/level) who wants to see what's on offer
   - Information on events and how to join
   - Background info e.g. who runs it, is it safe, qualifications
@@ -110,8 +113,6 @@ Resulting user profiles:
   - Event information for visitors 
 
 ---
-
-### Research
 
 #### Market Review
 
@@ -150,15 +151,11 @@ I looked at three similar sites, all of which are based further south in Wales. 
 
 ---
 
-### Structure
+### Scope & Structure of the site 
 
 I have chosen to use three different pages rather than sections on one page. This has allowed me to split the information up and organise it into more manageable sections. There is very limited content at the moment, but this structure will allow for the content to grow as the club does. 
 
-#### Navigation and Layout
-- Main navigation bar with links: Home, About, Contact
-- Three content pages: Home, About, Contact 
-- Header and footer consistent for each page 
-
+### Scope
 #### Home Page
 - Basic information on the club including sponsors
 
@@ -176,8 +173,16 @@ I have chosen to use three different pages rather than sections on one page. Thi
 - Include some images of local surfing
 
 #### Contact
-- Form to allow queries 
+- Form to allow queries
 
+### Navigation and Layout – Structure 
+- Header on each page with logo which returns user to Index page
+- Main navigation bar with links: Home, About, Contact
+- Three content pages: Home, About, Contact 
+- Sponsor logos above footer on each page - takes users to sponsor's site in a new tab
+- Footer on each page with social media links - takes users to social media account in a new tab
+- Contact form to include feedback on user interaction e.g. error page or 'thank you' page 
+  
 ---
 
 ### Future Developments
@@ -196,7 +201,7 @@ As the club has only recently reformed, these ideas will only be relevant as it 
 - Newsletter signup 
 
 ---
-## Wireframes 
+## Wireframes – Skeleton plane 
 
 I used Balsamiq to create wireframes for each of the three pages. 
 I used a mobile-first approach. 
@@ -217,84 +222,33 @@ Keeping the design clean and simple was a priority both for UX and responsivenes
 
 #### Contact page 
 
+
 ![contact page mockup](assets/wireframes/Contact-Us-mobile.png)
 
 ![contact page mockup](assets/wireframes/Contact-Us.png) 
 
 ## Design, layout, colours
 
-The site needs to conform to the principles of UX in all five different planes.
-
-![Usability](https://github.com/surfergrl/sgs-gift-guide/blob/main/assets/images/princip-UX.png) 
-
-### Content - elements to include
-
-##### Headline 
-The Scallywags Nanny 
-
-##### Tag-line 
-Your trusted dog-walking and pet-sitting service in and around Bristol 
-
---- 
-
-
-#### The Scallywags Nanny Home Page 
-
-Landing page with title, image, tagline, introduction to services. 
-
-- Banner image:
-![Doggy banner](https://github.com/surfergrl/scallywags/blob/main/static/node_modules/startbootstrap-small-business/dist/assets/SN-banner.png)
-
-- Logo:
-![Scallywags Nanny logo](https://github.com/surfergrl/scallywags/blob/main/static/node_modules/startbootstrap-small-business/dist/assets/SN-logo.jpg)
-
-- Introductory text.
-- Three cards with text sending users to About, Services or Contact pages via call to action buttons.
-
-#### About Page 
-
-- Collage image of business owner and dogs: ![Emma and dogs](https://github.com/surfergrl/scallywags/blob/main/static/node_modules/startbootstrap-small-business/dist/assets/SN-collage.jpg)
-- Three cards with text detailing qualifications, services, why me? info and call to action (book or contact).
-
-#### The Scallywags Nanny Contact Page 
-
-- Intro text 'Every dog requires a meet-and-greet session before we can go out walking! Please get in touch via the form below.'
-- Simple JavaScriprt contact form.  
-
-#### The Scallywags Nanny Services Page 
-
-- Javascript gallery 
-- Login button
-- Meet & Greet booking button
-- Three cards with call to action (book or enquire) for bookable-online services
-
-#### The Scallywags Nanny Login Page 
-
-- Username/password form
-- Forgot password? link
-- Explanatory text right hand column 
-
 ---
 
-### Colours - Surface plane
+### Appearnce - Surface plane
 
-- The Scallywags Nanny brand uses earth-themed colours, with the logo in yellow, black and white. Whites, blues and greens feature heavily. The app will reflect this. 
-- The client has provided lots of images of their own; the focus should be on these so the surrounding design should be simple to show them off.
+#### Colours
+- The surf club logo is black and white
+- The client has provided some images which naturally reflect ocean colours 
+- Blue, black and white will be the main colours
+- They would like some use of the Welsh flag and its colours on the site, so green, red and white can be used 
 
----
-
-### Fonts
-
+#### Fonts
 #### Legibility, accessibility, contrast
 
-I wanted to ensure readability and consistency throughout the app, maintaining a balance between style and readability. I also wanted to ensure that the fonts complement the earthy theme of the main site.
+I wanted to ensure readability and consistency throughout the app, maintaining a balance between style and readability. 
+I also wanted to ensure that the fonts complement the ocean theme of the site. I used:
 
 - GoogleFonts
 - FontAwesome 
-- [ezGIF](https://ezgif.com/) - GIFs for the README
 - [Techsini Mockup](https://techsini.com/multi-mockup/) - mockup images for the README
-- [Favicon.io](https://favicon.io/favicon-converter/) - Create and add favicon to the browser tab
-- Colour palettes from [canva.com/colours](http://canva.com/colours)
+- [Favicon.io](https://favicon.io/favicon-converter/) - Create favicon
 
 Fonts - complement the logo colours/style  
 1. [Six Hands Rough](https://www.onlinewebfonts.com/download/f6db36f5c636e2adf912702a4ad751ec) font for headings
@@ -307,10 +261,7 @@ Fonts - complement the logo colours/style
 
 - [HTML](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- Python
-- Heroku
-- GitHub
+- GitHub version control 
 
 --- 
 
