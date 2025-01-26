@@ -3,6 +3,8 @@
 # BICA Surf Club 
 ### Version 2.0 
 
+<img src="assets/images/readme/mockup.png">
+
 ## The BICA Surf Club website hosts three pages of information about the surf club based in Llangrannog, West Wales.
 
 By Kat Dawes
@@ -236,19 +238,13 @@ Keeping the design clean and simple was a priority both for UX and responsivenes
 #### Colours
 - The surf club logo is black and white
 - The client has provided some images which naturally reflect ocean colours 
-- Blue, black and white will be the main colours
+- Blue, black and white will be the main colours, to reflect a sea/waves theme 
 - They would like some use of the Welsh flag and its colours on the site, so green, red and white can be used 
 
 #### Fonts 
 I wanted to ensure readability and consistency throughout the app, maintaining a balance between style and readability. 
-I also wanted to ensure that the fonts complement the ocean theme of the site. I used:
+I also wanted to ensure that the fonts complement the ocean theme of the site. I used GoogleFonts and FontAwesome. 
 
-- GoogleFonts
-- FontAwesome 
-- [Techsini Mockup](https://techsini.com/multi-mockup/) - mockup images for the README
-- [Favicon.io](https://favicon.io/favicon-converter/) - Create favicon
-
-Fonts 
 These fonts complement the logo style and are in keeping with the simple, clean lines of the site 
 Roboto
 [Roboto](https://fonts.googleapis.com/css?family=Roboto|Nunito:300) font for headings
@@ -298,17 +294,19 @@ The project will now be cloned locally for you to use.
 - [HTML](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - GitHub version control 
+- [Techsini Mockup](https://techsini.com/multi-mockup/) - mockup images for the README
+- [Favicon.io](https://favicon.io/favicon-converter/) - Create favicon
 
 --- 
 ## Validation and Testing 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/surfergrl/bica-surf-club)
 
-#### Bugs
+### Bugs
 
-Hero image
+*Hero image*
 I initially chose the image panofeb23-header-s.jpeg (still available in /assets/images) but despite resizing and trying various dispaly options it only ever showed a small portion of the centre of the image. I wanted to include the whole beach panorama. Requested help from Tutor Support who explained that this was not a suitable image as the focus point is too wide. Replaced image with a stock image from Unsplash. 
 
-Logo
+*Logo* 
 I initially wanted the logo to sit neatly on the bottom left of the hero image and move along with it. In the end I am happy with it floating a little more freely - this works well with different viewport sizes. In the end I prefer the logo floating off the header image, as it has a different look in what is otherwise a standard aesthetic. 
 
 ### HTML run through W3C validator 
@@ -355,7 +353,7 @@ One error was found with text-wrap property given a pixels value; this was chang
     </a>
 </p>
 
-#### Tested on 
+### Tested on 
 - Chrome Version 131.0.6778.265 renders as expected 
 - Firefox 134.0.1 renders as expected 
 - Safari 17.6 renders as expected 
@@ -364,7 +362,7 @@ One error was found with text-wrap property given a pixels value; this was chang
 
 ### Testing against user stories 
 
-- New potential club member (any age/level) who wants to see what's on offer
+- ***New potential club member*** (any age/level) who wants to see what's on offer
   - Information on events and how to join
   - Background info e.g. who runs it, is it safe, qualifications
   - Membership costs
@@ -372,7 +370,6 @@ One error was found with text-wrap property given a pixels value; this was chang
   - As above 
 
 <details><summary>Screenshots of Home and Events pages</summary>
-Home & Events pages 
 <img src="assets/images/readme/events-screenshot.png">
 <img src="assets/images/readme/croeso-screenshot.png">
 </details>
@@ -385,13 +382,12 @@ Home & Events pages
 | Social media buttons | Click buttons on footer, see more info | Find information about the club/members | Works as expected |
 | Events | Click on Events on nav bar, read more detail | Find information about coach qualifications, costs etc. | Basic information only; more content as club develops constitution etc. |
 
-
-- Official bodies - governing bodies e.g. Welsh Surfing Federation or insurance company, funding organisations e.g. Council
+- ***Official bodies*** - governing bodies e.g. Welsh Surfing Federation or insurance company, funding organisations e.g. Council
   - In the future, information on policies, member qualifications to run events 
 
 This content is not yet available from the club; it will be supplied and loaded in the future. 
 
-- Sponsors
+- ***Sponsors***
   - Space for their logo
   - Images of club events with logos/banners etc. 
 
@@ -405,13 +401,12 @@ Appears on all pages above the footer.
 <img src="assets/images/readme/sponnos-screenshot.png">
 </details>
 
-- Current and potential volunteers/coaches
+- ***Current and potential volunteers/coaches***
   - Info on dates and times of events 
 - Visitors who might not become a member but might book a lesson/kids' session/other event
   - Event information for visitors 
 
 <details><summary>Screenshot of Events page</summary>
-Events page
 <img src="assets/images/readme/events-screenshot.png">
 </details>
 
@@ -419,17 +414,14 @@ Events page
 |-------------|------------|---------------------|-------------------|
 | Three event info sections | Read event information | See event information | Works as expected |
 
-- Current club members
+- ***Current club members***
   - Event information
   - How to get in touch
   - Background of club and members 
 
 <details><summary>Screenshots </summary>
-Events page
 <img src="assets/images/readme/events-screenshot.png">
-Home page 
 <img src="assets/images/readme/croeso-screenshot.png">
-Contact Us page
 <img src="assets/images/readme/contact-screenshot.png">
 </details>
 
@@ -439,7 +431,7 @@ Contact Us page
 | Intro section | Read intro to club on index page | See information bilingually | Works as expected | 
 | Contact form | Contact the club | Contact the club | Works as expected |
 
-
+### Conclusion
 The user stories are broadly matched by the functionality of the site, but some areas do not yet have enough information. As the club develops this information will be created and can be uploaded as relevant. A new page for policies and coach information would be the next step, as well as a gallery for more sponsor visibility and exposure of club members and successful events. 
 
 For now, the site is able to give the basic information users require, and allows them to contact the club with any further questions. Future developments will build on this foundation. 
@@ -465,6 +457,7 @@ Local surfer images by Hedz Llewelyn, Carol Vincent and Emily J with permission.
 ## Thanks to
 
 Mentor: Richard Wells https://github.com/D0nni387 
-Help with CSS: CI tutor Oisin Tohak ![Oisin](assets/images/readme/oisin.png)
+
+![Oisin](assets/images/readme/oisin.png) Help with CSS: CI tutor Oisin Tohak 
 
 ---
