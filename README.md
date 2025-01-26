@@ -257,7 +257,6 @@ Nunito
 [Nunito](https://fonts.googleapis.com/css?family=Roboto|Nunito:300) for body text 
 ![Nunito font example](assets/images/Nunito.png)
 
-
 ---
 
 ## Deployment
@@ -303,7 +302,7 @@ The project will now be cloned locally for you to use.
 ## Validation and Testing 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/surfergrl/bica-surf-club)
 
-HTML run through W3C validator 
+### HTML run through W3C validator 
 
 Errors on index.html:
 - Widths for the logo and main image had px specified when that was not needed. Deleted. 
@@ -311,16 +310,27 @@ Errors on index.html:
 - Span links were removed as not necessary. 
 - Added closing tags for links in the correct place (footer). 
 - The validator threw errors for the code copied from the CSS validator to display the 'Valid CSS' image. I deleted this altogether. 
+Now validates. 
+
+Similar errors showed up on the Contact Us and Events page as Index was used as a template for the other pages. 
 
 Errors on contact.html: 
-Similar errors showed up on the contact page. 
 - Widths on images had px specified when that was not needed. Deleted. 
 - Section for the logo was changed into a div element at the validator's suggestion. 
 - Span links were removed as not necessary. 
 - Added closing tags for links in the correct place in the footer. 
 - The validator threw errors for the code copied from the CSS validator to display the 'Valid CSS' image. I deleted this altogether. 
+Now validates. 
 
-CSS run through Jigsaw 
+Errors on events.html
+- Widths on images had px specified; not correct html. Deleted. 
+- Section for the logo was changed into a div element at the validator's suggestion. 
+- Fixed missing div end tag; this fixed the section error as well.  
+- Added closing a tags for links in the correct place in the footer. 
+- Removed CSS validator image as on the other pages. 
+Now validates. 
+
+### CSS run through Jigsaw 
 One error was found with text-wrap property given a pixels value; this was changed to 'wrap'. 
 <p>
     <a href="http://jigsaw.w3.org/css-validator">
@@ -339,9 +349,18 @@ Tested on
 
 ---
 
+## Credits
+
+Bootstrap Icons for social media https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css
+
+Horizontal navigation bar help via this tutorial: https://www.w3schools.com/css/css_navbar_horizontal.asp 
+
+Flexbox Froggy [http://flexboxfroggy.com/] from Codepip for teaching me flex display and the Flexbox cheatsheet [https://flexbox.malven.co/] used for creating column displays. ![alt text](/assets/images/readme/froggy.png)
+
+
 ## Thanks to
 
-Mentor: Richard Wells 
-Support: Oisin Tohak ![Oisin](assets/images/oisin.png)
+Mentor: Richard Wells for much reassurance 
+Help with CSS: CI tutor Oisin Tohak ![Oisin](assets/images/oisin.png)
 
 ---
